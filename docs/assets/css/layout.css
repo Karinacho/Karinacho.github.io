@@ -1,0 +1,30 @@
+.site{
+    max-width: var(--layout-main-width);
+    margin: 0 auto;
+    padding: 2em;
+}
+.intro{
+    text-align: center;
+}
+.what-i-do{
+    max-width: 50%;
+    background: white;
+    margin: 0 auto;
+}
+
+.intro ul{
+    padding-left: 0;
+    display:flex;
+    padding-top: 1em;
+    
+}
+.intro h3{
+    padding-top: 0.5em;
+}
+.intro li{
+    margin-top: 0.5em;
+   
+}
+.intro p{
+    padding-bottom: 0.8em;
+}

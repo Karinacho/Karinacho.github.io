@@ -1,0 +1,14 @@
+:root{
+    --font-size-body: 14px;
+    --font-size-larger: 16px;
+    --font-size-big: 18px;
+    --font-size-huge: 20px;
+
+    --layout-main-width: 70em;
+
+    --color-body-bgrd: #F7F4EA;
+    --color-body-text: #000;
+    --color-link-default: #53687E;
+    --color-link-hover-bgrd: #EBD2BE;
+    --color-link-hover: #F7F4EA;
+}

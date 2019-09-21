@@ -1,0 +1,34 @@
+.intro{
+    
+    background: rgb(210, 182, 171);
+    color: white;
+}
+
+.intro > h3{
+    letter-spacing: 0.2em;
+    font-weight: 300;
+}
+
+.intro li{
+    list-style: none outside;
+    font-style: italic;
+    max-width: 100px;
+    margin:0 auto;
+}
+.intro li:hover{
+    background: var( --color-link-hover-bgrd );
+}
+
+
+.intro p {
+    border-bottom: 2px solid white;
+    
+}
+.intro ul{
+    background: rgb(242, 242, 242);
+    
+}
+.intro li > a:hover{
+    color: var( --color-link-hover );
+}
+    
