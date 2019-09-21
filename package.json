@@ -1,0 +1,28 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Karina's Personal Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karinacho/Karinacho.github.io.git"
+  },
+  "author": "Karina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karinacho/Karinacho.github.io/issues"
+  },
+  "homepage": "https://github.com/Karinacho/Karinacho.github.io#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "browser-sync": "^2.26.3",
+    "child_process": "^1.0.2",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-exec": "^3.0.2",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0"
+  }
+}
