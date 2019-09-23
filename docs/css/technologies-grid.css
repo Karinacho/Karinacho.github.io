@@ -1,0 +1,38 @@
+.Front-End{
+    grid-template-columns: repeat(4, 100px);
+}
+.programming-languages{
+    grid-template-columns: repeat(2, 100px);
+}
+.grid {
+    display: grid;
+    
+    grid-auto-rows: 100px;
+    grid-gap:0.5em;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+.center{
+    text-align: center;
+}
+.grid div{
+    display:block;
+    position:relative;
+    overflow:hidden;
+}
+.grid img{
+    width: auto;
+    height:100px;
+    display:block;
+}
+
+.grid img.landscape{
+    height:auto;
+    width:100px;
+    display:block;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%)
+    
+}

@@ -2,7 +2,7 @@
 .site{
     max-width: var(--layout-main-width);
     margin: 0 auto;
-    padding: 2em;
+    padding-top: 2em;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -75,9 +75,7 @@ footer p{
     .what-i-do{
         max-width: 60%;
     }
-    footer{
-         margin-top: 1em;
-    }
+    
 }
 
 

@@ -53,5 +53,8 @@ body{
      background: rgb(210, 182, 171);
      color:white;
  }
+ footer p{
+     padding: 0.4em 0;
+ }
 
     
