@@ -1,0 +1,6 @@
+.site-header ul li{
+   transition: transform 1s ease-in-out;
+}
+.site-header ul li:hover{
+ transform: translateX(1em)
+}

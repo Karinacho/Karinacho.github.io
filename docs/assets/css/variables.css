@@ -6,9 +6,9 @@
 
     --layout-main-width: 70em;
 
-    --color-body-bgrd: #F7F4EA;
+    --color-body-bgrd: #7C7C7C;
     --color-body-text: #000;
     --color-link-default: #53687E;
     --color-link-hover-bgrd: #EBD2BE;
-    --color-link-hover: #F7F4EA;
+    --color-link-hover: rgb(29, 27, 21);
 }
