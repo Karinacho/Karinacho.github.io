@@ -3,7 +3,7 @@
     max-width: var(--layout-main-width);
     margin: 0 auto;
     padding-top: 2em;
-    height: 100vh;
+    
     display: flex;
     flex-direction: column;
     align-content: space-between;
