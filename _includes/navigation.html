@@ -2,12 +2,8 @@
 <nav>
     <ul>
         <li><a href="/">Home</a></li>
-        {% for page in site.pages %}
-            {% if page.title %}
-                <li>
-                    <a href="{{page.url}}">{{page.title}}</a>
-                </li>
-            {%endif%}
-        {%endfor%}
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/technologies">Technologies</a></li>
+
     </ul>
 </nav>

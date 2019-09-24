@@ -44,6 +44,7 @@ body{
     font-family: 'Great Vibes', cursive;
     letter-spacing: 0.2em;
     
+    
 
 }
 .site-header li > a:hover{
@@ -52,9 +53,11 @@ body{
  footer{
      background: rgb(210, 182, 171);
      color:white;
+     
  }
  footer p{
      padding: 0.4em 0;
  }
+ 
 
     
