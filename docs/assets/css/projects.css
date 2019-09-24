@@ -4,10 +4,9 @@
     grid-template-rows: auto repeat(auto);
 }
 
-.article{
+div.article{
     grid-column: 1/ span 3;
     text-align: center;
-   
     padding-top: 2em;
     background: #D7BBA8;
     padding-bottom: 1em;
