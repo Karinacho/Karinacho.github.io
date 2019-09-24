@@ -71,12 +71,7 @@ footer{
 footer p{
     padding: 0;
 }
-@media (min-width: 1024px){
-    .what-i-do{
-        max-width: 60%;
-    }
-    
-}
+
 
 
 

@@ -1,10 +1,13 @@
 .projects{
     display: grid;
     grid-template-columns: repeat(4,minmax(100px,auto));
-    grid-template-rows: auto repeat(45, 150px);
+    grid-template-rows: auto repeat(auto);
 }
 
 .article{
+    grid-column: 1/ span 3;
+    text-align: center;
+   
     padding-top: 2em;
     background: #D7BBA8;
     padding-bottom: 1em;
@@ -17,6 +20,7 @@
     font-weight: 700;
 }
 .projects-menu{
+    height: 250px;
     position:sticky; top:0;
     grid-column: 4;
     grid-row:2 / span 2;
@@ -30,9 +34,7 @@
 
 
 .front-end-layouts{
-    grid-column: 1/ span 3;
-    text-align: center;
-   
+    
 }
 .img-media{
     position: relative;
@@ -78,6 +80,22 @@
     border-bottom: 1px solid white;
     grid-column: 1/ span 3;
     font-weight: 500;
+}
+@media (min-width: 600px){
+    
+    .projects-menu{
+        height: 300px;
+    }
+    
+}
+@media (min-width: 1024px){
+    .what-i-do{
+        max-width: 60%;
+    }
+    .projects-menu{
+        height: 316px;
+    }
+    
 }
 
 
