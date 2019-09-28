@@ -4,6 +4,9 @@
 .programming-languages{
     grid-template-columns: repeat(2, 100px);
 }
+.databases{
+    grid-template-columns: repeat(2, 100px);
+}
 .grid {
     display: grid;
     
